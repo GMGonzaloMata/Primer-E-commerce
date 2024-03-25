@@ -1,0 +1,27 @@
+{
+  "name": "primer-e-commerce",
+  "version": "1.0.0",
+  "description": "test of first ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Gonzalo Mata",
+  "license": "MIT",
+  "jest": {
+    "setupFiles": [
+      "jest-fetch-mock"
+    ],
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "jsdom": "^24.0.0"
+  }
+}
